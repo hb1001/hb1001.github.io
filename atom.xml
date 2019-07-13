@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hb1001.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-07-13T07:29:14.877Z</updated>
+    <updated>2019-07-13T07:30:05.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hb1001.github.io/"/>
     <link rel="self" href="https://hb1001.github.io//atom.xml"/>
@@ -10,19 +10,6 @@
     <logo>https://hb1001.github.io//images/avatar.png</logo>
     <icon>https://hb1001.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[400 级地震和 13 亿分贝，哪个能量更大？]]></title>
-        <id>https://hb1001.github.io//post/400-ji-di-zhen-he-13-yi-fen-bei-na-ge-neng-liang-geng-da</id>
-        <link href="https://hb1001.github.io//post/400-ji-di-zhen-he-13-yi-fen-bei-na-ge-neng-liang-geng-da">
-        </link>
-        <updated>2019-07-13T07:18:42.000Z</updated>
-        <content type="html"><![CDATA[<p>作者：宋宁世
-链接：https://www.zhihu.com/question/333520936/answer/747208088
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p>这个问题出现这样的提问方式充分说明了一点：对数表示法过于反直觉，在生活中使用时必须进行一定的限制，而且尤其应该避免对两个基于对数尺度的量进行比较。表示地震的震级，表示声音的分贝，还包括天文学中的星等，化学中的pH值等等，它们共同的特点是——基于对数尺度。原理就是所有人在高中都学过的——取对数，在计算器的“log”键上一按就出来了。但是，对数这个工具的内涵远比计算器这一个按键丰富。比如，这个问题的问法就体现了对数尺度的第一个反直觉性：基于对数尺度的“分贝”是绝对不能直接套在能量上说“分贝能量”的！任何时候，进行对数运算的物理量都必须无量纲，也就是不带单位。所以，“1分贝”能量这样的说法没有任何意义。假如要研究一个大小为5e10 J的能量，我们必须先定义一个基准能量，比如1 J，然后把待求的能量和这个基准“1 J”取比值，再对这个比值进行对数运算，得到的结果——10.7，才成为10.7“贝尔”。根据“1贝尔=10分贝”，把这个值放大十倍，得到的才是107“分贝”（另外在声学中提到的“分贝”所基于的一般是指压强而不是能量）。在科学里，对数、三角函数、反三角函数等运算的自变量都一定要无量纲。我们在中学课本上学到：pH值是溶液中氢离子“浓度”的负对数”，但这个说法是不科学的，因为“浓度”的单位如果是mol/L，这样的有量纲量是不允许直接进行对数运算的。实际上，计算pH值之前，我们要首先将氢离子浓度除以一个“1 mol/L”，这个做法的目的就是保证对数运算的无量纲要求。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[测试test]]></title>
         <id>https://hb1001.github.io//post/ce-shi-test</id>
